@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="style.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header_inner">
+					<a href="#" class="header__logo">
+						<img src="img/logo1.svg" />
+						<img src="img/logo2.svg" />
+					</a>
+					<nav class="nav">
+						<a class="nav__nav_item" href="#">Jane Doe</a>
+						<a class="nav__nav_item" href="#">Tell us about yourself</a>
+						<a class="nav__nav_item" href="#">Slider</a>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="about_me">
+			<div class="container">
+				<div class="about_me__inner">
+					<img src="img/photo.png" alt="My photo" class="about_me__myPhoto" />
+					<div class="data_about">
+						<h1 class="about_me__name">Jane Doe</h1>
+						<div class="about_me__data">
+							<div class="about_me__data_item">
+								<span>Date of birth </span> 21.04.2001
+							</div>
+							<div class="about_me__data_item"><span>Gender </span>Female</div>
+							<div class="about_me__data_item"><span>Country </span>Corea</div>
+						</div>
+						<h3 class="about_me__title">About me</h3>
+						<div class="about_me__text">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<p>
+								Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia deserunt
+								mollit anim id est laborum.
+							</p>
+						</div>
+					</div>
+					<!--data-->
+				</div>
+				<!--about_inner-->
+			</div>
+			<!--container-->
+
+			<div class="decor1"><img src="img/ugolok.svg" alt="decoration" /></div>
+			<div class="decor2"><img src="img/ugolok.svg" alt="decoration" /></div>
+			<div class="big_square"></div>
+			<div class="small_square"></div>
+		</section>
+		<section class="about_you">
+			<div class="container">
+				<form class="about_you_form" name="about_you" method="POST" action="">
+					<h2 class="about_you_form__title">Tell us about yourself</h2>
+					<div class="step1">
+						<div class="step1__input_item">
+							<label for="name" class="label">Your name</label><br />
+							<input type="text" name="name" class="input" />
+						</div>
+						<div class="step1__input_item">
+							<label for="gender" class="label">Your gender</label><br />
+							<select
+								name="gender"
+								required="required"
+								class="input select_input"
+							>
+								<option>Male</option>
+								<option>Female</option>
+							</select>
+						</div>
+					</div>
+					<div class="step2">
+						<div class="step2__input_item">
+							<label for="country" class="label">Your country</label><br />
+							<input type="text" name="country" class="input" />
+						</div>
+						<div class="step2__input_item">
+							<label for="city" class="label">Your City</label><br />
+							<input type="text" name="city" class="input" />
+						</div>
+						<div class="step2__input_item">
+							<label for="birth" class="label">Your date of birth</label><br />
+							<input type="date" name="birth" class="input" />
+						</div>
+						<div class="step2__add_photo">
+							<p>Proof your identity with some documents</p>
+							<div class="add">Add document</div>
+						</div>
+					</div>
+					<!--input_step2-->
+					<button class="btn">Send info</button>
+				</form>
+				<!--about_you_form-->
+
+				<div class="decor3">
+					<img src="img/Group 355.svg" alt="decoration" />
+				</div>
+				<div class="decor4">
+					<img src="img/Group 355 — копия.svg" alt="decoration" />
+				</div>
+			</div>
+			<!--container-->
+		</section>
+		<section class="slider">
+			<div class="container">
+				<div class="slide_item">
+					<img src="img/carusel.png" alt="Photo" />
+					<div class="carusel_text">
+						<h3>Slide this photo</h3>
+						<div>
+							Duis aute irure dolor in reprehenderit in voluptate velit esse<br />cillum
+							dolore eu fugiat nulla pariatur
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
